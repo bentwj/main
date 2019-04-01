@@ -387,15 +387,21 @@ Receives notifications 30 minutes before the actual reminder start time.
 ==== Sending email reminders to patients: [coming in v2.0]
 
 Sends an auto-generated email reminder to patients regarding an approaching appointment date.
+{empty} +
+
+'''
 
 === Administration and Statistics
+
+'''
+
 [[statistics, View statistics]]
 ==== Viewing statistics: `statistics`
 
 Views the statistics of the clinic. +
 
 Format: `statistics FROM_MONTHYEAR [TO_MONTHYEAR]` +
-Alias: `stats` +
+Alias{nbsp}{nbsp}{nbsp}{nbsp}: `stats` +
 
 * Views the statistics of the clinic for the given date range.  +
 * If `TO_MONTHYEAR` is not specified, it will be defaulted to be equal to `FROM_MONTHYEAR`. +
@@ -407,12 +413,14 @@ View the statistics for January 2019. +
 * `stats 0119 0219` +
 View the statistics from January 2019 to February 2019. +
 
+'''
+
 [[setconsultfee, Set consultation fee]]
 ==== Setting consultation fee: `setconsultfee`
 Sets the consultation fee to the specified amount. +
 
-Format: `setconsultfee AMOUNT`
-
+Format: `setconsultfee AMOUNT`+
+Alias{nbsp}{nbsp}{nbsp}{nbsp}: `setfee` +
 Examples: +
 
 * `setconsultfee 30` +
@@ -420,14 +428,21 @@ Sets the consultation fee to $30.00. +
 * `setconsultfee $32.50` +
 Sets the consultation fee to $32.50. +
 
+'''
+
 ==== Generate medical certificate: [coming in V2.0]
 
 Generates a custom MC
+
+'''
 
 ==== Generate invoice: [coming in v2.0]
 
 Generates the invoice for a given prescription. After selecting the patient, select the consultation to view in detail and then select the desired prescription.
 
+'''
+
+{nbsp} +
 
 == Frequently Asked Questions (FAQ)
 * *Q: How do I save the data after I add or change something?* +
