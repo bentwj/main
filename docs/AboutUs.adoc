@@ -21,7 +21,7 @@ Responsibilities: Patient and consultation management module, UI design
 
 === Tan Wenjian
 image::bentwj.png[width="150", align="left"]
-{empty}[http://github.com/bentwj[github]] [<<johndoe#, portfolio>>]
+{empty}[http://github.com/bentwj[github]] [<<bentwj#, portfolio>>]
 
 Role: Code Quality and Documentation +
 Responsibilities: Administration and statistics module, Logic implementation
